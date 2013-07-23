@@ -43,6 +43,9 @@ Not currently. If they ever make sense — if for example we were to add the opt
 
 == CHANGELOG ==
 
+= 0.1.4 (2013.07.23) =
+* put screenshot in the wrong place. yay!
+
 = 0.1.3 (2013.07.23) =
 * git svn is hard * 2
 
