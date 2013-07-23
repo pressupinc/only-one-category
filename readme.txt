@@ -43,6 +43,9 @@ Not currently. If they ever make sense — if for example we were to add the opt
 
 == CHANGELOG ==
 
+= 0.1.1 (2013.07.23) =
+* Documentation improvements
+
 = 0.1.0 (2013.07.22) =
 * Initial
 
