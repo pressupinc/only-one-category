@@ -1,17 +1,16 @@
 <?php
 /*
 Plugin Name: Only One Category
-Plugin URI: http://pressupinc.com
-Description: Makes categories as radio buttons
+Plugin URI: http://pressupinc.com/plugins/one-category-only
+Description: Turn categories from checkboxes to radio buttons
 Author: Press Up
-Version: 0.1.0
+Version: 0.1.1
 Author URI: http://pressupinc.com
 */ 
 
 if( strstr($_SERVER['REQUEST_URI'], 'wp-admin/post-new.php') 
 	|| strstr($_SERVER['REQUEST_URI'], 'wp-admin/post.php') 
-	|| strstr($_SERVER['REQUEST_URI'], 'wp-admin/edit.php') )
-{
+	|| strstr($_SERVER['REQUEST_URI'], 'wp-admin/edit.php') ) {
   ob_start('ooc_one_category_only');
 }
 
