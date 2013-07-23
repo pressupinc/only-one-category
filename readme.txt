@@ -4,7 +4,7 @@ Plugin URI: http://pressupinc.com/plugins/only-one-category/
 Tags: categories, edit, post, admin
 Requires at least: 2.8
 Tested up to: 3.5.2
-Stable tag: 0.1.3
+Stable tag: 0.1.4
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
