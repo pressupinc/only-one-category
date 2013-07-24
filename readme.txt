@@ -1,14 +1,14 @@
 === Only One Category ===
 Contributors: pressupinc
-Plugin URI: http://pressupinc.com/plugins/only-one-category/
+Plugin URI: http://pressupinc.com/wordpress-plugins/only-one-category/
 Tags: categories, edit, post, admin
 Requires at least: 2.8
 Tested up to: 3.5.2
-Stable tag: 0.1.4
+Stable tag: 0.1.5
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
-A plugin which only allows a post to be in one category by changing category checkboxes into radio buttons.
+Limits a post to a single category by changing the checkboxes into radio buttons. Simple.
 
 == Description ==
 
@@ -42,6 +42,12 @@ Not currently. If they ever make sense — if for example we were to add the opt
 2. How it looks when you Quick Edit a post with the new UI.
 
 == CHANGELOG ==
+
+= 0.1.5 (2013.07.23) =
+* Shortened short description
+
+= 0.1.4 (2013.07.23) =
+* put screenshot in the wrong place. yay!
 
 = 0.1.3 (2013.07.23) =
 * git svn is hard * 2

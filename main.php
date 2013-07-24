@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Only One Category
-Plugin URI: http://pressupinc.com/plugins/one-category-only
+Plugin URI: http://pressupinc.com/wordpress-plugins/only-one-category/
 Description: Turn categories from checkboxes to radio buttons
 Author: Press Up
-Version: 0.1.4
+Version: 0.1.5
 Author URI: http://pressupinc.com
 */ 
 
