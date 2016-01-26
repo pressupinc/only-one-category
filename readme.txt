@@ -3,8 +3,8 @@ Contributors: pressupinc, davidbhayes
 Plugin URI: http://pressupinc.com/wordpress-plugins/only-one-category/
 Tags: categories, edit, post, admin
 Requires at least: 2.8
-Tested up to: 4.1.2
-Stable tag: 1.0.1
+Tested up to: 4.4.1
+Stable tag: 1.0.2
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -42,6 +42,10 @@ Not currently. If they ever make sense — if for example we were to add the opt
 2. How it looks when you Quick Edit a post with the new UI.
 
 == CHANGELOG ==
+
+= 1.0.1 (2016.01.26) =
+* Removed deprecated use of get_all_category_ids
+* Bumped tested version number
 
 = 1.0.1 (2015.04.21) =
 * VCS headaches...

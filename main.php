@@ -4,7 +4,7 @@ Plugin Name: Only One Category
 Plugin URI: http://pressupinc.com/wordpress-plugins/only-one-category/
 Description: Limits a post to a single category by changing the checkboxes into radio buttons. Simple.
 Author: Press Up
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://pressupinc.com
 */ 
 
