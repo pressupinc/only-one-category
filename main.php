@@ -21,8 +21,10 @@ function ooc_swap_out_checkboxes($content) {
 	$content = str_replace( 'type="checkbox" name="post_category', 'type="radio" name="post_category', $content );
 
 	// for "Most Used" tab
-	foreach (get_all_category_ids() as $i) { 
-		$content = str_replace( 'id="in-popular-category-'.$i.'" type="checkbox"', 'id="in-popular-category-'.$i.'" type="radio"', $content );
+	$categories = get_terms( 'category' );
+	
+	foreach ($categories as $i) {
+		$content = str_replace( 'id="in-popular-category-'.$i->term_id.'" type="checkbox"', 'id="in-popular-category-'.$i->term_id.'" type="radio"', $content );
 	}
 
 	return $content;
