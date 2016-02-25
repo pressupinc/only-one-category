@@ -30,3 +30,18 @@ function ooc_swap_out_checkboxes($content) {
 
 	return $content;
 }
+
+/* load script in the footer */
+if ( ! function_exists('ooc_admin_enqueue_scripts') ):
+function ooc_admin_enqueue_scripts( $hook ) {
+
+	if ( 'edit.php' === $hook ) {
+
+		wp_enqueue_script( 'ooc_inline_edit_script', plugins_url('js/inline-edit.js', __FILE__),
+			false, null, true );
+
+	}
+
+}
+endif;
+add_action( 'admin_enqueue_scripts', 'ooc_admin_enqueue_scripts' );
