@@ -34,8 +34,6 @@
 				var taxname,
 					term_ids = $(this).text();
 
-				// window.alert(term_ids);
-
 				if ( term_ids ) {
 					taxname = $(this).attr('id').replace('_'+id, '');
 					$('ul.cat-checklist :radio', $edit_row).val(term_ids.split(','));
