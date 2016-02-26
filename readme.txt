@@ -4,7 +4,7 @@ Plugin URI: http://pressupinc.com/wordpress-plugins/only-one-category/
 Tags: categories, edit, post, admin
 Requires at least: 2.8
 Tested up to: 4.4.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -43,7 +43,10 @@ Not currently. If they ever make sense — if for example we were to add the opt
 
 == CHANGELOG ==
 
-= 1.0.1 (2016.01.26) =
+= 1.0.3 (2016.02.25) =
+* Quick Edit now works! Big thanks to [Andrew Nimmo](https://github.com/nimmolo) for the [PR](https://github.com/pressupinc/only-one-category/pull/4).
+
+= 1.0.2 (2016.01.26) =
 * Removed deprecated use of get_all_category_ids
 * Bumped tested version number
 
